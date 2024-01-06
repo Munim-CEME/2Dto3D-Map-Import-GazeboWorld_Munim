@@ -11,6 +11,7 @@ The following steps are necessary for executing a Gazebo world containing your m
 5. Now, in the same directory, run your map server using **rosrun map_server map_server.//yourmapname.yaml//**
 6. Now launch the gazebo world. Before doing so, map2gazebo topic must be initialized by **roslaunch map2gazebo map2gazebo.launch**. Wait for the mesh to be created and exported and kill the node
 7. Now, gazebo node can be launched by running **roslaunch map2gazebo gazebo_world.launch** to visualize the robot with map. Note that the launch file contains robot parameters as well as gazebo world parameters
-8. To view the robot in RVIZ along with the map, run the tutorial file from hector slam package using the **roslaunch hector_slam_launch tutorial.launch** command
-9. If you wish to move the robot around in Gazebo and view the map changing dynamically, run the teleop node for motion 
+8. This extrudes your map, and converts it into a 3D world. For further information on this package, refer to the link of repo given above
+9. To view the robot in RVIZ along with the map, run the tutorial file from hector slam package using the **roslaunch hector_slam_launch tutorial.launch** command
+10. If you wish to move the robot around in Gazebo and view the map changing dynamically, run the teleop node for motion 
  
