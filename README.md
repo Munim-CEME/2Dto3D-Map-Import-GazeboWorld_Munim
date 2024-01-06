@@ -1,7 +1,7 @@
 # Map-Import-to-GazeboWorld
 Importing a pre-exisitng map created through RP 2D Lidar using Hector Slam into a Gazebo world and RVIZ for visualization with 4-wheel robot. This project is a continuation of the last project, referred in [this](https://github.com/SyedKirmani12/4WheelDrive_Gazebo_using_ROS) repo.
 ## Pre-requisites
-Make sure that you have a pre-existing map present in the form of a png file, which would create a map topic to publish to the "map2gazebo" process and export the map in Gazebo as a 3D mesh.  
+Make sure that you have a pre-existing map present in the form of a png file, which would create a map topic to publish to the "map2gazebo" process and export the map in Gazebo as a 3D mesh.In our case, we had mapped a certain area using RP 2D LIDAR and hecor slam.
 ## Steps to Simulation
 The following steps are necessary for executing a Gazebo world containing your map.
 1. Clone the hector_slam package package into the catkin workspace's src folder. (Documentation on hector slam package for ros can be found [here]([url](http://wiki.ros.org/hector_slam))
