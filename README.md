@@ -6,7 +6,7 @@ Make sure that you have a pre-existing map present in the form of a png file, wh
 The following steps are necessary for executing a Gazebo world containing your map.
 1. Clone the hector_slam package package into the catkin workspace's src folder. (Documentation on hector slam package for ros can be found [here]([url](http://wiki.ros.org/hector_slam))
 2. Move your pre-existing map inside the maps folder
-3. Make sure that map2gazebo folder is also available in src folder (IMPORTANT NOTE:  map2Gazebo packags has not been created on my end , and was taken from [this](https://github.com/shilohc/map2gazebo) repo.
+3. Make sure that map2gazebo folder is also available in src folder (IMPORTANT NOTE:  map2Gazebo packags has not been created on my end , and was taken from [this](https://github.com/shilohc/map2gazebo) repo.)
 4. After this move to the directory - **~/catkin_ws/src/maps** and initalize roscore using **roscore** command
 5. Now, in the same directory, run your map server using **rosrun map_server map_server.//yourmapname.yaml//**
 6. Now launch the gazebo world. Before doing so, map2gazebo topic must be initialized by **roslaunch map2gazebo map2gazebo.launch**. Wait for the mesh to be created and exported and kill the node
