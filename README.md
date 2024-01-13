@@ -13,5 +13,7 @@ The following steps are necessary for executing a Gazebo world containing your m
 7. Now, gazebo node can be launched by running **roslaunch map2gazebo gazebo_world.launch** to visualize the robot with map. Note that the launch file contains robot parameters as well as gazebo world parameters
 8. This extrudes your map, and converts it into a 3D world. For further information on this package, refer to the link of repo given above
 9. To view the robot in RVIZ along with the map, run the tutorial file from hector slam package using the **roslaunch hector_slam_launch tutorial.launch** command
-10. If you wish to move the robot around in Gazebo and view the map changing dynamically, run the teleop node for motion 
+10. If you wish to move the robot around in Gazebo and view the map changing dynamically, run the teleop node for motion
+##Contribution
+As of my contribution I helped in finding suitable package for converting map in 3d gazebo world, moreover I implemented hector SLAM on Lidar in real life and later on helped visulaize the launch file in simulation in a similar process
  
